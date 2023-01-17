@@ -5,7 +5,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>849.6,1086.4</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>849.6,1714.4</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ChrisS_1_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="31">
@@ -87,7 +87,7 @@
       <AssemblyReference>System.Private.Uri</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ChrisS_1 - Get Emails and Store Emails" sap:VirtualizedContainerService.HintSize="637.6,1021.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ChrisS_1 - Get Emails and Store Emails" sap:VirtualizedContainerService.HintSize="637.6,1021.5999999999999" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="scg:List(snm:MailMessage)" Name="InvoiceEmails" />
     </Sequence.Variables>
@@ -96,8 +96,8 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:GetOutlookMailMessages Account="{x:Null}" FilterByMessageIds="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Get Outlook Mail Messages" Filter="[subject]='Sales Invoice'" GetAttachements="False" sap:VirtualizedContainerService.HintSize="575.2,24.8" sap2010:WorkflowViewState.IdRef="GetOutlookMailMessages_1" MailFolder="Inbox" MarkAsRead="True" Messages="[InvoiceEmails]" OnlyUnreadMessages="True" OrderByDate="NewestFirst" Top="1" />
-    <ui:ForEach x:TypeArguments="snm:MailMessage" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="575.2,844.8" sap2010:WorkflowViewState.IdRef="ForEach`1_2" Values="[InvoiceEmails]">
+    <ui:GetOutlookMailMessages Account="{x:Null}" FilterByMessageIds="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Get Outlook Mail Messages" Filter="[subject]='Sales Invoice'" GetAttachements="False" sap:VirtualizedContainerService.HintSize="575.2,24.8" sap2010:WorkflowViewState.IdRef="GetOutlookMailMessages_1" MailFolder="Inbox" MarkAsRead="True" Messages="[InvoiceEmails]" OnlyUnreadMessages="True" OrderByDate="NewestFirst" Top="2" />
+    <ui:ForEach x:TypeArguments="snm:MailMessage" CurrentIndex="{x:Null}" DisplayName="For Each - Email and Filters for PDF Files to save to the data folder" sap:VirtualizedContainerService.HintSize="575.2,844.8" sap2010:WorkflowViewState.IdRef="ForEach`1_2" Values="[InvoiceEmails]">
       <ui:ForEach.Body>
         <ActivityAction x:TypeArguments="snm:MailMessage">
           <ActivityAction.Argument>
@@ -120,7 +120,7 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:SaveMailAttachments sap2010:Annotation.AnnotationText="This Saves only PDF Files to the data folder." Attachments="[Attachments]" DisplayName="Save Attachments" ExcludeInlineAttachments="False" FolderPath="Data/" sap:VirtualizedContainerService.HintSize="337.6,119.2" sap2010:WorkflowViewState.IdRef="SaveMailAttachments_1" Message="[currentItem]" OverwriteExisting="False">
+                  <ui:SaveMailAttachments sap2010:Annotation.AnnotationText="This Saves only PDF Files to the data folder." Attachments="[Attachments]" DisplayName="Save Attachments" ExcludeInlineAttachments="False" Filter=".*(.pdf|.PDF)" FolderPath="Data/" sap:VirtualizedContainerService.HintSize="337.6,119.2" sap2010:WorkflowViewState.IdRef="SaveMailAttachments_1" Message="[currentItem]" OverwriteExisting="False">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
