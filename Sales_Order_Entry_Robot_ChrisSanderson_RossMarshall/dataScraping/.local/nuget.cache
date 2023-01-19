@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kggmGmkYu2vglAKlZvIJqRtKrWjNofZ1UOH3NAgaitGFszgNNz85wTBg3UcApPgbLXEoxFvxi+h67qIgJIZXDQ==",
+  "dgSpecHash": "JPUx5WGdMjgAaxcec4lX/DU/fhEt9Vf0WGPM7tT85MqQDHtQUy+zgyi85GyoNNkg11J0SDGo30En6VVOWy9ZHw==",
   "success": true,
   "projectFilePath": "C:\\Users\\rossa\\Documents\\GitHub\\sales-order-entry-robot\\Sales_Order_Entry_Robot_ChrisSanderson_RossMarshall\\dataScraping\\.local\\",
   "expectedPackageFiles": [
@@ -83,6 +83,7 @@
     "C:\\Users\\rossa\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
     "C:\\Users\\rossa\\.nuget\\packages\\system.text.encodings.web\\4.7.1\\system.text.encodings.web.4.7.1.nupkg.sha512",
     "C:\\Users\\rossa\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\rossa\\.nuget\\packages\\system.text.regularexpressions\\4.3.1\\system.text.regularexpressions.4.3.1.nupkg.sha512",
     "C:\\Users\\rossa\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512",
     "C:\\Users\\rossa\\.nuget\\packages\\system.threading.tasks.dataflow\\5.0.0\\system.threading.tasks.dataflow.5.0.0.nupkg.sha512",
     "C:\\Users\\rossa\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
