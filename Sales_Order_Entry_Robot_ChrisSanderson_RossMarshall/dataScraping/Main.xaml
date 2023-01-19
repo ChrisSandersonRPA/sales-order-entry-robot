@@ -215,7 +215,7 @@
         </Assign.Value>
       </Assign>
     </Sequence>
-    <ui:GenerateDataTable ColumnSizes="{x:Null}" NewLineSeparator="{x:Null}" Positions="{x:Null}" CSVParsing="False" ColumnSeparators=";," DataTable="[customerAndCompanyDT]" DisplayName="Generate Data Table - Populates Data Table with all other required Data" sap:VirtualizedContainerService.HintSize="473,200" sap2010:WorkflowViewState.IdRef="GenerateDataTable_1" Input="[cleanPdfString]" />
+    <ui:GenerateDataTable ColumnSizes="{x:Null}" NewLineSeparator="{x:Null}" Positions="{x:Null}" AutoDetectTypes="False" CSVParsing="False" ColumnSeparators=";," DataTable="[customerAndCompanyDT]" DisplayName="Generate Data Table - Populates Data Table with all other required Data" sap:VirtualizedContainerService.HintSize="473,200" sap2010:WorkflowViewState.IdRef="GenerateDataTable_1" Input="[cleanPdfString]" />
     <ui:InterruptibleWhile DisplayName="While - Renames the Generated Table Columns" sap:VirtualizedContainerService.HintSize="473,517" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
       <ui:InterruptibleWhile.Body>
         <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="304,352" sap2010:WorkflowViewState.IdRef="Sequence_15">
