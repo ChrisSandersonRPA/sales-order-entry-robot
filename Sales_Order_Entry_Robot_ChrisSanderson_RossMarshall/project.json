@@ -1,7 +1,7 @@
 {
   "name": "Sales_Order_Entry_Robot_ChrisSanderson_RossMarshall",
   "description": "Blank Process",
-  "main": "Main.xaml",
+  "main": "Main_Invoking_Files.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.17.0-preview]",
     "UiPath.Mail.Activities": "[1.18.2]",
@@ -48,8 +48,8 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Main.xaml",
-      "uniqueId": "66320e43-0aba-42cd-b264-1869a8ebb20b",
+      "filePath": "Main_Invoking_Files.xaml",
+      "uniqueId": "ff4a9964-c37c-4b4e-a45e-60bff328d067",
       "input": [],
       "output": []
     }
