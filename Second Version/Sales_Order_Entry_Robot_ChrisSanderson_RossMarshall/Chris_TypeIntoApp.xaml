@@ -6,7 +6,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1488,8036</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1150.4,4131.2</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ChrisS_2_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="31">
@@ -44,7 +44,7 @@
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="44">
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="88">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>System.Private.CoreLib</AssemblyReference>
@@ -91,37 +91,37 @@
       <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1080,7971" sap2010:WorkflowViewState.IdRef="Sequence_7">
+  <Sequence sap:VirtualizedContainerService.HintSize="1160.8,4066.4" sap2010:WorkflowViewState.IdRef="Sequence_7">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:OpenApplication ApplicationWindow="{x:Null}" Arguments="{x:Null}" TimeoutMS="{x:Null}" WorkingDirectory="{x:Null}" DisplayName="Open Application 'order entry.exe'" FileName="C:\Users\rossa\Documents\GitHub\sales-order-entry-robot\Second Version\Sales_Order_Entry_Robot_ChrisSanderson_RossMarshall\order entry.exe" sap:VirtualizedContainerService.HintSize="1038,7879" sap2010:WorkflowViewState.IdRef="OpenApplication_1" InformativeScreenshot="02c2c47a03871ca3a98511720bf8947f" Selector="&lt;wnd app='order entry.exe' ctrlname='Form1' /&gt;">
+    <ui:OpenApplication ApplicationWindow="{x:Null}" Arguments="{x:Null}" TimeoutMS="{x:Null}" WorkingDirectory="{x:Null}" DisplayName="Open Application 'order entry.exe'" FileName="order entry.exe" sap:VirtualizedContainerService.HintSize="1098.4,3954.4" sap2010:WorkflowViewState.IdRef="OpenApplication_1" InformativeScreenshot="02c2c47a03871ca3a98511720bf8947f" Selector="&lt;wnd app='order entry.exe' ctrlname='Form1' /&gt;">
       <ui:OpenApplication.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1004,7733" sap2010:WorkflowViewState.IdRef="Sequence_25">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1064.8,3807.2" sap2010:WorkflowViewState.IdRef="Sequence_25">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'order entry.exe'" sap:VirtualizedContainerService.HintSize="962,7495" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="7c09373ad4f1d30b423bac870b457d2b" Selector="&lt;wnd app='order entry.exe' ctrlname='Form1' /&gt;">
+            <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'order entry.exe'" sap:VirtualizedContainerService.HintSize="1002.4,3549.6" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="7c09373ad4f1d30b423bac870b457d2b" Selector="&lt;wnd app='order entry.exe' ctrlname='Form1' /&gt;">
               <ui:WindowScope.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="928,7349" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="968.8,3402.4" sap2010:WorkflowViewState.IdRef="Sequence_20">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Sequence DisplayName="ChrisS_2" sap:VirtualizedContainerService.HintSize="886,6965" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                    <Sequence DisplayName="ChrisS_2" sap:VirtualizedContainerService.HintSize="906.4,2999.2" sap2010:WorkflowViewState.IdRef="Sequence_10">
                       <Sequence.Variables>
                         <Variable x:TypeArguments="scg:Dictionary(x:String, x:String)" Name="CompanyName" />
                         <Variable x:TypeArguments="x:Boolean" Name="clickOK" />
@@ -132,19 +132,19 @@
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[customerAndCompanyDetails]" DisplayName="For Each Row in Data Table - Customer and Company Details" sap:VirtualizedContainerService.HintSize="802,1359" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
+                      <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[customerAndCompanyDetails]" DisplayName="For Each Row in Data Table - Customer and Company Details" sap:VirtualizedContainerService.HintSize="844,1419.2" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
                         <ui:ForEachRow.Body>
                           <ActivityAction x:TypeArguments="sd:DataRow">
                             <ActivityAction.Argument>
                               <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                             </ActivityAction.Argument>
-                            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="768,1244" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="788.8,1303.2" sap2010:WorkflowViewState.IdRef="Sequence_11">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <Sequence DisplayName="Sequence - Company" sap:VirtualizedContainerService.HintSize="726,66" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                              <Sequence DisplayName="Sequence - Company" sap:VirtualizedContainerService.HintSize="726.4,83.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -445,20 +445,20 @@
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:AnchorBase>
                               </Sequence>
-                              <Sequence DisplayName="Sequence - Customer" sap:VirtualizedContainerService.HintSize="726,66" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                              <Sequence DisplayName="Sequence - Customer" sap:VirtualizedContainerService.HintSize="787.2,1948" sap2010:WorkflowViewState.IdRef="Sequence_8">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base - Company Name" sap:VirtualizedContainerService.HintSize="726,226" sap2010:WorkflowViewState.IdRef="AnchorBase_20">
+                                <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base - Company Name" sap:VirtualizedContainerService.HintSize="724.8,228" sap2010:WorkflowViewState.IdRef="AnchorBase_20">
                                   <ui:AnchorBase.Action>
                                     <ActivityAction x:TypeArguments="ui:Anchor">
                                       <ActivityAction.Argument>
                                         <DelegateInArgument x:TypeArguments="ui:Anchor" Name="ContextAnchor" />
                                       </ActivityAction.Argument>
-                                      <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_20" SimulateType="True" Text="[CurrentRow(7).ToString]">
+                                      <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="333.6,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_20" SimulateType="True" Text="[CurrentRow(7).ToString]">
                                         <ui:TypeInto.Target>
                                           <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="623e6831-1adf-49af-be4f-2e0e45cd572a" InformativeScreenshot="8114d291238f857dd9f0d172bbaf49e8" Selector="&lt;wnd /&gt;">
                                             <ui:Target.TimeoutMS>
@@ -473,7 +473,7 @@
                                     </ActivityAction>
                                   </ui:AnchorBase.Action>
                                   <ui:AnchorBase.AnchorProvider>
-                                    <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'WindowsForms10.STATIC.a...'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_20">
+                                    <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'WindowsForms10.STATIC.a...'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_20">
                                       <ui:WaitUiElementAppear.Target>
                                         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="85f04593-3037-4b4c-ab43-7ed93f86bdff" InformativeScreenshot="613f479cbd1c7d8b6e09446c52062cd8" Selector="&lt;wnd app='order entry.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='groupBox2' /&gt;&lt;wnd ctrlname='label12' /&gt;">
                                           <ui:Target.TimeoutMS>
@@ -493,13 +493,13 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:AnchorBase>
-                                <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base - Company Address" sap:VirtualizedContainerService.HintSize="726,226" sap2010:WorkflowViewState.IdRef="AnchorBase_21">
+                                <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base - Company Address" sap:VirtualizedContainerService.HintSize="724.8,228" sap2010:WorkflowViewState.IdRef="AnchorBase_21">
                                   <ui:AnchorBase.Action>
                                     <ActivityAction x:TypeArguments="ui:Anchor">
                                       <ActivityAction.Argument>
                                         <DelegateInArgument x:TypeArguments="ui:Anchor" Name="ContextAnchor" />
                                       </ActivityAction.Argument>
-                                      <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_21" SimulateType="True" Text="[CurrentRow(8).ToString]">
+                                      <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="333.6,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_21" SimulateType="True" Text="[CurrentRow(8).ToString]">
                                         <ui:TypeInto.Target>
                                           <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="623e6831-1adf-49af-be4f-2e0e45cd572a" InformativeScreenshot="6b58846c6e9233941bd97a00945ff590" Selector="&lt;wnd /&gt;">
                                             <ui:Target.TimeoutMS>
@@ -514,7 +514,7 @@
                                     </ActivityAction>
                                   </ui:AnchorBase.Action>
                                   <ui:AnchorBase.AnchorProvider>
-                                    <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'WindowsForms10.STATIC.a...'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_21">
+                                    <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'WindowsForms10.STATIC.a...'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_21">
                                       <ui:WaitUiElementAppear.Target>
                                         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="85f04593-3037-4b4c-ab43-7ed93f86bdff" InformativeScreenshot="7635fae0f66f839accd574565ac722d5" Selector="&lt;wnd app='order entry.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='groupBox2' /&gt;&lt;wnd ctrlname='label11' /&gt;">
                                           <ui:Target.TimeoutMS>
@@ -534,13 +534,13 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:AnchorBase>
-                                <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base - Company City" sap:VirtualizedContainerService.HintSize="726,226" sap2010:WorkflowViewState.IdRef="AnchorBase_22">
+                                <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base - Company City" sap:VirtualizedContainerService.HintSize="724.8,228" sap2010:WorkflowViewState.IdRef="AnchorBase_22">
                                   <ui:AnchorBase.Action>
                                     <ActivityAction x:TypeArguments="ui:Anchor">
                                       <ActivityAction.Argument>
                                         <DelegateInArgument x:TypeArguments="ui:Anchor" Name="ContextAnchor" />
                                       </ActivityAction.Argument>
-                                      <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_22" SimulateType="True" Text="[CurrentRow(9).ToString]">
+                                      <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="333.6,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_22" SimulateType="True" Text="[CurrentRow(9).ToString]">
                                         <ui:TypeInto.Target>
                                           <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="623e6831-1adf-49af-be4f-2e0e45cd572a" InformativeScreenshot="4ff641f0aac08b33836e7debe8c2cf85" Selector="&lt;wnd /&gt;">
                                             <ui:Target.TimeoutMS>
@@ -555,7 +555,7 @@
                                     </ActivityAction>
                                   </ui:AnchorBase.Action>
                                   <ui:AnchorBase.AnchorProvider>
-                                    <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'WindowsForms10.STATIC.a...'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_22">
+                                    <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'WindowsForms10.STATIC.a...'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_22">
                                       <ui:WaitUiElementAppear.Target>
                                         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="85f04593-3037-4b4c-ab43-7ed93f86bdff" InformativeScreenshot="5c0103ba8bc114b9d628890e3985444e" Selector="&lt;wnd app='order entry.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='groupBox2' /&gt;&lt;wnd ctrlname='label10' /&gt;">
                                           <ui:Target.TimeoutMS>
@@ -575,13 +575,13 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:AnchorBase>
-                                <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base - Company State" sap:VirtualizedContainerService.HintSize="726,226" sap2010:WorkflowViewState.IdRef="AnchorBase_23">
+                                <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base - Company State" sap:VirtualizedContainerService.HintSize="724.8,228" sap2010:WorkflowViewState.IdRef="AnchorBase_23">
                                   <ui:AnchorBase.Action>
                                     <ActivityAction x:TypeArguments="ui:Anchor">
                                       <ActivityAction.Argument>
                                         <DelegateInArgument x:TypeArguments="ui:Anchor" Name="ContextAnchor" />
                                       </ActivityAction.Argument>
-                                      <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_23" SimulateType="True" Text="[CurrentRow(10).ToString]">
+                                      <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="333.6,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_23" SimulateType="True" Text="[CurrentRow(10).ToString]">
                                         <ui:TypeInto.Target>
                                           <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="623e6831-1adf-49af-be4f-2e0e45cd572a" InformativeScreenshot="fa7527058f45faab51d88c0df7a5a7b9" Selector="&lt;wnd /&gt;">
                                             <ui:Target.TimeoutMS>
@@ -596,7 +596,7 @@
                                     </ActivityAction>
                                   </ui:AnchorBase.Action>
                                   <ui:AnchorBase.AnchorProvider>
-                                    <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'WindowsForms10.STATIC.a...'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_23">
+                                    <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'WindowsForms10.STATIC.a...'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_23">
                                       <ui:WaitUiElementAppear.Target>
                                         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="85f04593-3037-4b4c-ab43-7ed93f86bdff" InformativeScreenshot="53fadeb42317b446a55d2c4ced569ba1" Selector="&lt;wnd app='order entry.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='groupBox2' /&gt;&lt;wnd ctrlname='label9' /&gt;">
                                           <ui:Target.TimeoutMS>
@@ -616,13 +616,13 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:AnchorBase>
-                                <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base - Company Contact No" sap:VirtualizedContainerService.HintSize="726,226" sap2010:WorkflowViewState.IdRef="AnchorBase_25">
+                                <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base - Company Contact No" sap:VirtualizedContainerService.HintSize="724.8,228" sap2010:WorkflowViewState.IdRef="AnchorBase_25">
                                   <ui:AnchorBase.Action>
                                     <ActivityAction x:TypeArguments="ui:Anchor">
                                       <ActivityAction.Argument>
                                         <DelegateInArgument x:TypeArguments="ui:Anchor" Name="ContextAnchor" />
                                       </ActivityAction.Argument>
-                                      <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_25" SimulateType="True" Text="[CurrentRow(11).ToString]">
+                                      <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="333.6,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_25" SimulateType="True" Text="[CurrentRow(13).ToString]">
                                         <ui:TypeInto.Target>
                                           <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="623e6831-1adf-49af-be4f-2e0e45cd572a" InformativeScreenshot="882f4b5e45e0990f7c3aeb0fc9a33685" Selector="&lt;wnd /&gt;">
                                             <ui:Target.TimeoutMS>
@@ -643,7 +643,7 @@
                                     </ActivityAction>
                                   </ui:AnchorBase.Action>
                                   <ui:AnchorBase.AnchorProvider>
-                                    <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'WindowsForms10.STATIC.a...'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_25">
+                                    <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'WindowsForms10.STATIC.a...'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_25">
                                       <ui:WaitUiElementAppear.Target>
                                         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="85f04593-3037-4b4c-ab43-7ed93f86bdff" InformativeScreenshot="a5c8f7602d499a110a8f0021b911e05a" Selector="&lt;wnd app='order entry.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='groupBox2' /&gt;&lt;wnd ctrlname='label20' /&gt;">
                                           <ui:Target.TimeoutMS>
@@ -663,13 +663,13 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:AnchorBase>
-                                <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base - Company Tin" sap:VirtualizedContainerService.HintSize="726,226" sap2010:WorkflowViewState.IdRef="AnchorBase_26">
+                                <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base - Company Tin" sap:VirtualizedContainerService.HintSize="724.8,228" sap2010:WorkflowViewState.IdRef="AnchorBase_26">
                                   <ui:AnchorBase.Action>
                                     <ActivityAction x:TypeArguments="ui:Anchor">
                                       <ActivityAction.Argument>
                                         <DelegateInArgument x:TypeArguments="ui:Anchor" Name="ContextAnchor" />
                                       </ActivityAction.Argument>
-                                      <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_26" SimulateType="True" Text="[CurrentRow(12).ToString]">
+                                      <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="333.6,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_26" SimulateType="True" Text="[CurrentRow(12).ToString]">
                                         <ui:TypeInto.Target>
                                           <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="623e6831-1adf-49af-be4f-2e0e45cd572a" InformativeScreenshot="d309ab3ea9b7487be5cfa0a7cdc106d8" Selector="&lt;wnd /&gt;">
                                             <ui:Target.TimeoutMS>
@@ -684,7 +684,7 @@
                                     </ActivityAction>
                                   </ui:AnchorBase.Action>
                                   <ui:AnchorBase.AnchorProvider>
-                                    <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'WindowsForms10.STATIC.a...'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_26">
+                                    <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'WindowsForms10.STATIC.a...'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_26">
                                       <ui:WaitUiElementAppear.Target>
                                         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="85f04593-3037-4b4c-ab43-7ed93f86bdff" InformativeScreenshot="7297e3d4e113b05f4e1bca3cebee2c10" Selector="&lt;wnd app='order entry.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='groupBox2' /&gt;&lt;wnd ctrlname='label14' /&gt;">
                                           <ui:Target.TimeoutMS>
@@ -704,13 +704,13 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:AnchorBase>
-                                <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base - Company Pin Code" sap:VirtualizedContainerService.HintSize="726,226" sap2010:WorkflowViewState.IdRef="AnchorBase_24">
+                                <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base - Company Pin Code" sap:VirtualizedContainerService.HintSize="724.8,228" sap2010:WorkflowViewState.IdRef="AnchorBase_24">
                                   <ui:AnchorBase.Action>
                                     <ActivityAction x:TypeArguments="ui:Anchor">
                                       <ActivityAction.Argument>
                                         <DelegateInArgument x:TypeArguments="ui:Anchor" Name="ContextAnchor" />
                                       </ActivityAction.Argument>
-                                      <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_24" SimulateType="True" Text="[CurrentRow(13).ToString]">
+                                      <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="333.6,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_24" SimulateType="True" Text="[CurrentRow(11).ToString]">
                                         <ui:TypeInto.Target>
                                           <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="623e6831-1adf-49af-be4f-2e0e45cd572a" InformativeScreenshot="5f281f860dde402a3840afca28226bfe" Selector="&lt;wnd /&gt;">
                                             <ui:Target.TimeoutMS>
@@ -731,7 +731,7 @@
                                     </ActivityAction>
                                   </ui:AnchorBase.Action>
                                   <ui:AnchorBase.AnchorProvider>
-                                    <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'WindowsForms10.STATIC.a...'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_24">
+                                    <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'WindowsForms10.STATIC.a...'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_24">
                                       <ui:WaitUiElementAppear.Target>
                                         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="85f04593-3037-4b4c-ab43-7ed93f86bdff" InformativeScreenshot="e10aeaa80c2d06c4ee201c1866633a16" Selector="&lt;wnd app='order entry.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='groupBox2' /&gt;&lt;wnd ctrlname='label8' /&gt;">
                                           <ui:Target.TimeoutMS>
@@ -752,7 +752,7 @@
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:AnchorBase>
                               </Sequence>
-                              <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base - Invoice Number" sap:VirtualizedContainerService.HintSize="726,51" sap2010:WorkflowViewState.IdRef="AnchorBase_33">
+                              <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base - Invoice Number" sap:VirtualizedContainerService.HintSize="726.4,52.8" sap2010:WorkflowViewState.IdRef="AnchorBase_33">
                                 <ui:AnchorBase.Action>
                                   <ActivityAction x:TypeArguments="ui:Anchor">
                                     <ActivityAction.Argument>
@@ -773,7 +773,7 @@
                                   </ActivityAction>
                                 </ui:AnchorBase.Action>
                                 <ui:AnchorBase.AnchorProvider>
-                                  <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'WindowsForms10.STATIC.a...'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_32">
+                                  <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'WindowsForms10.STATIC.a...'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_32">
                                     <ui:WaitUiElementAppear.Target>
                                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="89731018-6520-4af4-9748-a90a40ea16b6" InformativeScreenshot="884380e732fe8305f9e01866c4e4d83e" Selector="&lt;wnd app='order entry.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='groupBox3' /&gt;&lt;wnd ctrlname='label3' /&gt;">
                                         <ui:Target.TimeoutMS>
@@ -793,7 +793,7 @@
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
                               </ui:AnchorBase>
-                              <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base - Invoice Date" sap:VirtualizedContainerService.HintSize="726,51" sap2010:WorkflowViewState.IdRef="AnchorBase_34">
+                              <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base - Invoice Date" sap:VirtualizedContainerService.HintSize="726.4,52.8" sap2010:WorkflowViewState.IdRef="AnchorBase_34">
                                 <ui:AnchorBase.Action>
                                   <ActivityAction x:TypeArguments="ui:Anchor">
                                     <ActivityAction.Argument>
@@ -814,7 +814,7 @@
                                   </ActivityAction>
                                 </ui:AnchorBase.Action>
                                 <ui:AnchorBase.AnchorProvider>
-                                  <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'WindowsForms10.STATIC.a...'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_33">
+                                  <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'WindowsForms10.STATIC.a...'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_33">
                                     <ui:WaitUiElementAppear.Target>
                                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="89731018-6520-4af4-9748-a90a40ea16b6" InformativeScreenshot="f2b5a2aff0f10bca2efa39b1b8b95093" Selector="&lt;wnd app='order entry.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='groupBox3' /&gt;&lt;wnd ctrlname='label7' /&gt;">
                                         <ui:Target.TimeoutMS>
@@ -834,13 +834,13 @@
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
                               </ui:AnchorBase>
-                              <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base - Sub Total" sap:VirtualizedContainerService.HintSize="726,226" sap2010:WorkflowViewState.IdRef="AnchorBase_35">
+                              <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base - Sub Total" sap:VirtualizedContainerService.HintSize="726.4,228" sap2010:WorkflowViewState.IdRef="AnchorBase_35">
                                 <ui:AnchorBase.Action>
                                   <ActivityAction x:TypeArguments="ui:Anchor">
                                     <ActivityAction.Argument>
                                       <DelegateInArgument x:TypeArguments="ui:Anchor" Name="ContextAnchor" />
                                     </ActivityAction.Argument>
-                                    <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_34" Text="[CurrentRow(17).ToString]">
+                                    <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="333.6,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_34" Text="[CurrentRow(17).ToString]">
                                       <ui:TypeInto.Target>
                                         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d0d3edba-e610-4a8d-bb6b-2f1dc1f95b06" InformativeScreenshot="04b59e2bb26eefda58d1e0a3567e747d" Selector="&lt;wnd /&gt;">
                                           <ui:Target.TimeoutMS>
@@ -855,7 +855,7 @@
                                   </ActivityAction>
                                 </ui:AnchorBase.Action>
                                 <ui:AnchorBase.AnchorProvider>
-                                  <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'WindowsForms10.STATIC.a...'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_35">
+                                  <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'WindowsForms10.STATIC.a...'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_35">
                                     <ui:WaitUiElementAppear.Target>
                                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="bbb6f955-77e5-4340-8555-c15dc7a21237" InformativeScreenshot="c1e24a347c84289a3919acbab3efe86c" Selector="&lt;wnd ctrlname='lblSubtotal' /&gt;">
                                         <ui:Target.TimeoutMS>
