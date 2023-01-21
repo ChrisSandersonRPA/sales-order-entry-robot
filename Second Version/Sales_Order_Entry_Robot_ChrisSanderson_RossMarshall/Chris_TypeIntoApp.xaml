@@ -1051,7 +1051,7 @@
                         </ui:Target>
                       </ui:Click.Target>
                     </ui:Click>
-                    <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" sap2010:Annotation.AnnotationText="This button is EVIL. It wont accept anything but default click. I tried everything I could.  Send hotkey, simulate, send windows message, find element. It would not accept anything if the previous button was not default clicked. &#xA;" ClickType="CLICK_DOUBLE" DisplayName="I hate this Button. " sap:VirtualizedContainerService.HintSize="886,208" sap2010:WorkflowViewState.IdRef="Click_5" KeyModifiers="None" MouseButton="BTN_LEFT">
+                    <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" sap2010:Annotation.AnnotationText="This button is EVIL. It wont accept anything but default click. I tried everything I could.  Send hotkey, simulate, send windows message, find element. Delays on all the methods. It would not accept anything if the previous button was not default clicked. &#xA;" ClickType="CLICK_DOUBLE" DisplayName="I hate this Button. " sap:VirtualizedContainerService.HintSize="886,208" sap2010:WorkflowViewState.IdRef="Click_5" KeyModifiers="None" MouseButton="BTN_LEFT">
                       <ui:Click.CursorPosition>
                         <ui:CursorPosition Position="Center">
                           <ui:CursorPosition.OffsetX>
